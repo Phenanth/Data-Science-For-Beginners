@@ -35,3 +35,6 @@ git rebase "upstream/$BRANCH"
 git push origin "$BRANCH" --force-with-lease
 
 echo "✅ Sync done: origin/$BRANCH = upstream/$BRANCH + your commits (rebased)."
+echo ""
+read -n 1 -s -r -p "Press any key to exit..."
+echo
