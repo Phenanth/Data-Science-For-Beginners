@@ -1,4 +1,13 @@
 #!/usr/bin/env bash
+
+# git remote add upstream https://github.com/microsoft/Data-Science-For-Beginners.git
+# git remote set-url --push upstream DISABLE
+# git remote -v
+# git fetch upstream
+# git checkout main
+# git rebase upstream/main
+# git push origin main --force-with-lease
+
 set -euo pipefail
 
 BRANCH="${1:-main}"
