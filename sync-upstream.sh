@@ -8,6 +8,9 @@
 # git rebase upstream/main
 # git push origin main --force-with-lease
 
+# 启动虚拟环境
+# source Assignment/bin/activate
+
 set -euo pipefail
 
 BRANCH="${1:-main}"
